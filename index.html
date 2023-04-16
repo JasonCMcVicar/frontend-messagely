@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Messagely</title>
+  <!-- <link rel="stylesheet" href="css/site.css">
+  <link rel="stylesheet" href="css/user.css">
+  <link rel="stylesheet" href="css/stories.css">
+  <link rel="stylesheet" href="css/nav.css"> -->
+</head>
+
+<body>
+
+  <!-- top navigation bar -->
+  <!-- <nav>
+    <div class="navbar-brand">
+      <a class="nav-link" href="#" id="nav-all">Hack or Snooze</a>
+    </div>
+    <div class="nav-center">
+      <a class="nav-link" href="#" id="nav-submit">submit</a>
+    </div>
+    <div class="nav-right">
+      <a class="nav-link" href="#" id="nav-login">login/signup</a>
+      <a class="nav-link" href="#" id="nav-user-profile"></a>
+      <a class="hidden" id="nav-logout" href="#"><small>(logout)</small></a>
+    </div>
+  </nav> -->
+
+  <!-- Conversations List -->
+  <section class="conversations-container container">
+
+    <!-- loading conversations (removed by JS after conversations list loaded) -->
+    <div id="conversations-loading">Loading&hellip;</div>
+
+    <!-- list of all conversations ongoing -->
+    <ul id="conversations-list" class="conversations-list"></ul>
+
+  </section>
+
+  <!-- Messages List  -->
+  <section class="messages-container container">
+
+    <!-- loading conversations (removed by JS after conversations list loaded) -->
+    <div id="conversations-loading">Loading&hellip;</div>
+
+    <!-- list of all messages with a particular person -->
+    <ul id="messages-list" class="messages-list"></ul>
+
+  </section>
+
+  <!-- Login and signup and add story forms -->
+  <section class="account-forms-container container">
+
+    <!-- make a message form-->
+    <form id="add-message-form" class="add-message hidden">
+      <h4>Make a message</h4>
+
+    </form>
+
+    <!-- Login form -->
+    <form id="login-form" class="account-form hidden">
+      <h4>Login</h4>
+
+    </form>
+
+    <!-- Signup form -->
+    <form id="signup-form" class="account-form hidden">
+      <h4>Create Account</h4>
+
+    </form>
+  </section>
+
+  <!-- Library JS & our JS -->
+  <script src="https://unpkg.com/jquery"></script>
+  <script src="https://unpkg.com/axios/dist/axios.js"></script>
+
+  <!-- <script src="js/models.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/user.js"></script>
+  <script src="js/stories.js"></script> -->
+
+</body>
+
+</html>
