@@ -72,9 +72,17 @@
   <section class="account-forms-container container">
 
     <!-- make a message form-->
-    <form id="add-message-form" class="add-message hidden">
+    <form id="new-message-form" class="new-message hidden">
       <h4>Make a message</h4>
-
+      <div>
+        <label for="new-message-recipient">to</label>
+        <select name="" id="new-message-recipient">
+          <option value="username1">username1</option>
+        </select>
+        <label for="new-message-body">message</label>
+        <textarea name="" id="new-message-body" cols="30" rows="10"></textarea>
+      <button>send</button>
+      </div>
     </form>
 
     <!-- Login form -->
